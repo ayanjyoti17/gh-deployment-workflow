@@ -1,1 +1,99 @@
-"<h1>The workflow worked!</h1>"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages CI/CD Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6; /* Light gray background */
+            color: #333; /* Dark gray text */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            text-align: center;
+            max-width: 800px;
+            width: 90%;
+            animation: fadeIn 1s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            color: #2c3e50; /* Dark blue heading */
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: #555;
+        }
+        .button {
+            display: inline-block;
+            background-color: #3498db; /* Blue button */
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+            transform: translateY(-2px);
+        }
+        .button.secondary {
+            background-color: #2ecc71; /* Green button */
+        }
+        .button.secondary:hover {
+            background-color: #27ae60; /* Darker green on hover */
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        .icon {
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 GitHub Actions CI/CD Pipeline</h1>
+        <p>
+            Welcome to my continuous deployment project for GitHub Pages! This project demonstrates an automated workflow that deploys this static website whenever changes are pushed to the `index.html` file on the `main` branch.
+        </p>
+        <p>
+            It highlights practical application of DevOps principles, ensuring a seamless and efficient path from code commit to a live web page.
+        </p>
+        <a href="https://github.com/ayanjyoti17/gh-deployment-workflow" target="_blank" class="button">
+            <span class="icon">🔗</span> View Project on GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/ayan-jyoti-b312b223a/" target="_blank" class="button secondary">
+            <span class="icon">💼</span> Connect on LinkedIn
+        </a>
+        <p class="footer">
+            Built with ❤️ and GitHub Actions.
+        </p>
+    </div>
+</body>
+</html>
