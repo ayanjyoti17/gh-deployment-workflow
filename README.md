@@ -1,5 +1,11 @@
 # GitHub Pages Deployment Workflow
 
+## 🚀 Project live URL
+
+https://ayanjyoti17.github.io/gh-deployment-workflow/
+
+---
+
 This project demonstrates a simple CI/CD pipeline using GitHub Actions to automatically deploy a static `index.html` file to GitHub Pages. The workflow is configured to run only when changes are pushed to the `main` branch that specifically affect the `index.html` file.
 
 ---
